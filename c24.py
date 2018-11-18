@@ -59,9 +59,9 @@ for clisting in allNumCombinations(13):
             comboCounts[result_str] = []
         comboCounts[result_str].append(clisting)
         
-print("Total number combinations: " + str(totalComboCnt))  
+print("Total number of 4-number combinations: " + str(totalComboCnt))  
 for key in comboCounts.keys():
-    print("Result: " + str(key) + ' ' + "Number combination: " + str(len(comboCounts[key])))
+    print("Result: " + str(key) + ' ' + "Combinations: " + str(len(comboCounts[key])))
                   
 #print("Total expression combinations: " + str(totalExprCs))
 #for key in resultCounts.keys():
