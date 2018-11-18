@@ -13,16 +13,6 @@ def allOpsCombinations(oplists):
 		    for op3 in oplists:
 			    yield [op1, op2, op3]
 
-# Compare two lists for exact content
-def isSameList(l1, l2):
-    if len(l1) != len(l2):
-        return False
-    else:
-        for i in range(0, len(l1)):
-            if l1[i] != l2[i]:
-                return False
-    return True
-
 totalComboCnt = 0
 totalExprCs = 0
 comboCounts = {} # store the number combinations that can lead to the result
