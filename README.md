@@ -9,4 +9,6 @@ Directory structure
 Program execution:
 With Python 3+, run "python c24.py"
 
-TODO: Currently the statistic is collected assuming that the picked numbers have to be used in the order that they are picked. This may wrongly flag a particular permutation not be able to generate particular values, thus underestimating the percentage of combinations that can generate particular values. 
+c24_improved.py updates c24.py to address the following problem:
+In cn24.py, the statistics are collected assuming that the picked numbers have to be used in the order that they are picked. This may wrongly flag a particular permutation not be able to generate particular values, thus underestimating the percentage of combinations that can generate particular values. 
+The respective statistics are stored in analysis_improved.xlsx.
